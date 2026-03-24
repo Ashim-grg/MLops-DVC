@@ -7,4 +7,6 @@
 7. Next 'dvc add data/' (Tell dvc any data which is inside data/ folder add to S3)
     - Then it will tell to git -rm --cached data and git commit 'Stop tracking data'
     - After performing this we will again perform 'dvc add data/' (it will add data/ in .gitignore and data.dvc)
-8.
+8. Use dvc status to check the data and pipelines status.
+9. Now we do 'dvc commit' and then 'dvc push'.
+10. Do a git add-commit-push to save the first version of Data.
