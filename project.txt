@@ -18,3 +18,4 @@ Now if we want to recall or go to first version then,
 We perform,  
     git checkout <hash>  --- like, git checkout master
     
+Now enter 'dvc pull' which will pull u to the state where u had first version of data and test.py code file.
