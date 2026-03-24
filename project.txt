@@ -12,3 +12,4 @@
 10. Do a git add-commit-push to save the first version of Data.
 11. Now we make changes in test.py file like adding new row and check changes via dvc status.
 12. After adding, do 'dvc commit' and 'dvc push'.
+13. If we do step 11 and 12 again we will get 'Second version of data.'
